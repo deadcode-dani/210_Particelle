@@ -54,6 +54,10 @@ function randomSetup()
    if(!params)
     {
        res_e=params.res_e;
+       res_s=params.res_s;
+       res_t=params.res_t;
+       res_p=params.res_p;
+       num_input=params.num_input;
     }
    randomSeed(num_input);
    noiseSeed(num_input)
