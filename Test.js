@@ -81,9 +81,6 @@ function randomSetup()
      p_color_red=floor(map(res_p,0,15,20,210));
      col_list[0]=[red(p_color_red),green(col_list[0]),blue(col_list[0])]
     
-     if(res_t<=7)
-        minRadius = w*(map(7-res_t,0,8,0.1,0.20));
-     else
        minRadius = 0;
   }  
   
