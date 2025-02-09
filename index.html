@@ -46,7 +46,15 @@
     <script src="Test.js"></script>
 </head>
 <body>
-    
+            <script>
+            // La funzione keyPressed() rappresenta il salvataggio dell'immagine
+            // Funzione che simula la pressione del tasto "s"
+            function simulateS() {
+              // Invece di dispatchare un evento sintetico, chiamiamo direttamente keyPressed()
+              //keyPressed();
+              saveCanvas(canvas_effettivo, '_deadcode_' + name_file + '.png');
+            }
+  </script>
 </body>
 </html>
 
