@@ -171,4 +171,9 @@ function draw_barra_caricamento(panel,x,y,lunghezza,larghezza,spessore,c1,c2,p_t
   
 }
 
-
+// All’interno di Main.js o Test.js
+function saveMyCanvas() {
+  saveCanvas('myCanvas', 'png');
+}
+// Espone la funzione a livello di window, così è richiamabile da fuori
+window.saveMyCanvas = saveMyCanvas;
