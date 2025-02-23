@@ -169,7 +169,7 @@ function drawMainTest_001(panel,p_time)
       panel.translate(width / 2, height / 2);
       panel.noFill();
       panel.stroke(col_list[0])
-      panel.strokeWeight(1)
+      panel.strokeWeight(4)
       panel.rect(-width / 3.6,-height / 3.6,height / 1.8,height / 1.8)
       panel.scale(0.8)
   }
