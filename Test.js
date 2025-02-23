@@ -142,7 +142,7 @@ function randomSetup()
     particles.push({
       pos: randomVector(maxRadius),
       vel: randomVector(0.5),
-      size: randomHash(1, 3),
+      size: randomHash(2, 3),
       alpha: randomHash(50, 200),
       target: floor(randomHash(0,numParticles)),
       col: col_list[0]
